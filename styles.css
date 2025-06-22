@@ -1,0 +1,311 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+};
+h1 {
+    font-size: 2.5rem;
+    color: #cf8fff;
+    margin-bottom: 20px;
+};
+p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 20px;
+};
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #cf8fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+};
+button:hover {
+    background-color: #b080d4;
+};
+button:active {
+    background-color: #2d2d2d;
+    color: #ffffff;
+};
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    };
+    p {
+        font-size: 1rem;
+    };
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    };
+};
+@media (max-width: 400px) {
+    main {
+        padding: 10px;
+    };
+    h1 {
+        font-size: 1.8rem;
+    };
+    p {
+        font-size: 0.9rem;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    };
+};
+@media (prefers-color-scheme: dark) {
+    main {
+        background-color: #121212;
+    };
+    h1 {
+        color: #cf8fff;
+    };
+    p {
+        color: #ffffff;
+    };
+    button {
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (prefers-color-scheme: light) {
+    main {
+        background-color: #ffffff;
+    };
+    h1 {
+        color: #cf8fff;
+    };
+    p {
+        color: #000000;
+    };
+    button {
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 600px) and (prefers-color-scheme: dark) {
+    main {
+        background-color: #121212;
+    };
+    h1 {
+        color: #cf8fff;
+    };
+    p {
+        color: #ffffff;
+    };
+    button {
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 600px) and (prefers-color-scheme: light) {
+    main {
+        background-color: #ffffff;
+    };
+    h1 {
+        color: #cf8fff;
+    };
+    p {
+        color: #000000;
+    };
+    button {
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 400px) and (prefers-color-scheme: dark) {
+    main {
+        padding: 10px;
+        background-color: #121212;
+    };
+    h1 {
+        font-size: 1.8rem;
+        color: #cf8fff;
+    };
+    p {
+        font-size: 0.9rem;
+        color: #ffffff;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 400px) and (prefers-color-scheme: light) {
+    main {
+        padding: 10px;
+        background-color: #ffffff;
+    };
+    h1 {
+        font-size: 1.8rem;
+        color: #cf8fff;
+    };
+    p {
+        font-size: 0.9rem;
+        color: #000000;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 600px) and (max-width: 400px) {
+    main {
+        padding: 10px;
+        background-color: #ffffff;
+    };
+    h1 {
+        font-size: 1.8rem;
+        color: #cf8fff;
+    };
+    p {
+        font-size: 0.9rem;
+        color: #000000;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 600px) and (max-width: 400px) and (prefers-color-scheme: dark) {
+    main {
+        padding: 10px;
+        background-color: #121212;
+    };
+    h1 {
+        font-size: 1.8rem;
+        color: #cf8fff;
+    };
+    p {
+        font-size: 0.9rem;
+        color: #ffffff;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 600px) and (max-width: 400px) and (prefers-color-scheme: light) {
+    main {
+        padding: 10px;
+        background-color: #ffffff;
+    };
+    h1 {
+        font-size: 1.8rem;
+        color: #cf8fff;
+    };
+    p {
+        font-size: 0.9rem;
+        color: #000000;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
+@media (max-width: 600px) and (max-width: 400px) and (prefers-color-scheme: dark) and (prefers-color-scheme: light) {
+    main {
+        padding: 10px;
+        background-color: #121212;
+    };
+    h1 {
+        font-size: 1.8rem;
+        color: #cf8fff;
+    };
+    p {
+        font-size: 0.9rem;
+        color: #ffffff;
+    };
+    button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        background-color: #cf8fff;
+        color: #000000;
+    };
+    button:hover {
+        background-color: #b080d4;
+    };
+    button:active {
+        background-color: #2d2d2d;
+        color: #ffffff;
+    };
+};
